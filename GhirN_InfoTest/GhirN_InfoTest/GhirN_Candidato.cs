@@ -36,20 +36,20 @@ namespace GhirN_InfoTest
 
         public GhirN_Candidato()
         {
-            GhirN_matricola = 0;
-            GhirN_nome = "";
+            ghirN_matricola = 0;
+            ghirN_nome = null;
 
         }
         public GhirN_Candidato(string Nome)
         {
-            GhirN_matricola = 0;
-            GhirN_nome = Nome;
+            ghirN_matricola = 0;
+            ghirN_nome = Nome;
 
         }
         public GhirN_Candidato(int Matricola)
         {
             ghirN_matricola = Matricola;
-            ghirN_nome = "";
+            ghirN_nome = null;
 
         }
           public GhirN_Candidato(string Nome,int Matricola)
