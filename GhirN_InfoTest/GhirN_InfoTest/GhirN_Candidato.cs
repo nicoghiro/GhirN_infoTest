@@ -16,9 +16,9 @@ namespace GhirN_InfoTest
             {
                 return GhirN_matricola;
             }
-          private  set
+         private  set
             {
-                ghirN_matricola = value;
+                GhirN_matricola = value;
             }
         }
         public string ghirN_nome
@@ -27,9 +27,9 @@ namespace GhirN_InfoTest
             {
                 return GhirN_nome;
             }
-            private set
+            set
             {
-                ghirN_nome = value;
+                GhirN_nome = value;
             }
         }
         
