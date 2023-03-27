@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GhirN_InfoTest
 {
-    abstract class GhirN_Candidato
+    public abstract class GhirN_Candidato
     {
         private int GhirN_matricola;
         private string GhirN_nome;
