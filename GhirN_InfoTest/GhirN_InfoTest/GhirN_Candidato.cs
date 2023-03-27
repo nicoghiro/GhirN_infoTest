@@ -32,6 +32,7 @@ namespace GhirN_InfoTest
                 ghirN_nome = value;
             }
         }
+        
 
         public GhirN_Candidato()
         {
@@ -57,5 +58,8 @@ namespace GhirN_InfoTest
             ghirN_nome = Nome;
 
         }
+         abstract public bool Isidoneo();
+         abstract public int punteggio();
+
     }
 }
