@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GhirN_InfoTest
 {
-    public abstract class GhirN_Candidato
+    public abstract class GhirN_Candidato : IEquatable<GhirN_Candidato>
     {
         private int GhirN_matricola;
         private string GhirN_nome;
@@ -60,6 +60,24 @@ namespace GhirN_InfoTest
         }
          abstract public bool Isidoneo();
          abstract public int punteggio();
+        public override string ToString()
+        {
+            return ghirN_matricola + " " + ghirN_nome;
+        }
+        public  virtual bool Equals(GhirN_Candidato candi)
+        {
+           if(candi == null)
+                return false;
+            if (candi.ghirN_nome == this.ghirN_nome && candi.ghirN_matricola == this.ghirN_matricola)
+            {
+                return true;
+            }
+            return false;
+        }
+        public override int GetHashCode()
+        {
+            return (ghirN_nome+ GhirN_matricola).GetHashCode();
+        }
 
     }
 }

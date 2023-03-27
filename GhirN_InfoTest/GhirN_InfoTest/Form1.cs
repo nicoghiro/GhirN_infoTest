@@ -16,5 +16,12 @@ namespace GhirN_InfoTest
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            GhirN_Lavoratore nico = new GhirN_Lavoratore(4, 70, "nicolas");
+            MessageBox.Show(nico.ToString());
+     
+        }
     }
 }

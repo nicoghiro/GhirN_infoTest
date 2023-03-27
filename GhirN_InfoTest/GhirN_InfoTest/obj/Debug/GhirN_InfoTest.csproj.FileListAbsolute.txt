@@ -3,3 +3,9 @@ C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_Inf
 C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.Properties.Resources.resources
 C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.csproj.GenerateResource.cache
 C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.csproj.CoreCompileInputs.cache
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\bin\Debug\GhirN_InfoTest.exe.config
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\bin\Debug\GhirN_InfoTest.exe
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\bin\Debug\GhirN_InfoTest.pdb
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.Form1.resources
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.exe
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.pdb

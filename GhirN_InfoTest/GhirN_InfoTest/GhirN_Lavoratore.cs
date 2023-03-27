@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GhirN_InfoTest
 {
-    public class GhirN_Lavoratore:GhirN_Candidato
+    public class GhirN_Lavoratore: GhirN_Candidato,IEquatable<GhirN_Lavoratore>
     {
         int GhirN_esperienze;
         public int ghirN_esperienze
@@ -41,6 +41,25 @@ namespace GhirN_InfoTest
                 return true;
             else
                 return false;
+        }
+        public override string ToString()
+        {
+            return base.ToString() + " " + ghirN_esperienze ;
+        }
+        public bool Equals(GhirN_Lavoratore candi)
+        {
+            if (base.Equals(candi) == true && candi.ghirN_esperienze == this.ghirN_esperienze)
+                return true;
+            else
+                return false;
+        }
+        public  int CompareTo(GhirN_Disoccupato per)
+        {
+            if (this.punteggio() < per.punteggio())
+                return -1;
+            if (this.punteggio() > per.punteggio())
+                return 1;
+            return 0;
         }
     }
 }
