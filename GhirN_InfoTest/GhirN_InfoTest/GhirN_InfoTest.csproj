@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="GhirN_Candidato.cs" />
     <Compile Include="GhirN_Disoccupato.cs" />
+    <Compile Include="GhirN_Lavoratore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

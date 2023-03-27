@@ -1,0 +1,5 @@
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.csproj.AssemblyReference.cache
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.Properties.Resources.resources
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.csproj.GenerateResource.cache
+C:\Users\Ghirardi.19370\Documents\GitHub\GhirN_infoTest\GhirN_InfoTest\GhirN_InfoTest\obj\Debug\GhirN_InfoTest.csproj.CoreCompileInputs.cache
