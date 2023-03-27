@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GhirN_InfoTest
 {
-    public class GhirN_Lavoratore: GhirN_Candidato,IEquatable<GhirN_Lavoratore>
+    public class GhirN_Lavoratore: GhirN_Candidato,IEquatable<GhirN_Lavoratore>,IComparable<GhirN_Lavoratore>
     {
         int GhirN_esperienze;
         public int ghirN_esperienze
@@ -53,7 +53,7 @@ namespace GhirN_InfoTest
             else
                 return false;
         }
-        public  int CompareTo(GhirN_Disoccupato per)
+        public  int CompareTo(GhirN_Lavoratore per)
         {
             if (this.punteggio() < per.punteggio())
                 return -1;

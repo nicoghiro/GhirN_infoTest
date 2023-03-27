@@ -21,7 +21,7 @@ namespace GhirN_InfoTest
         {
             GhirN_Lavoratore nico = new GhirN_Lavoratore(4, 70, "nicolas");
             MessageBox.Show(nico.ToString());
-     
+          
         }
     }
 }

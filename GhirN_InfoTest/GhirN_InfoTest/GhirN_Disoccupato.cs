@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GhirN_InfoTest
 {
-    public class GhirN_Disoccupato : GhirN_Candidato, IEquatable<GhirN_Disoccupato>
+    public class GhirN_Disoccupato : GhirN_Candidato, IEquatable<GhirN_Disoccupato>,IComparable<GhirN_Disoccupato>
     {
         int GhirN_voto;
         bool GhirN_lode;

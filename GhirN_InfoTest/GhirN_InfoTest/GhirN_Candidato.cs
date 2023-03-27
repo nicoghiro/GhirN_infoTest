@@ -64,7 +64,7 @@ namespace GhirN_InfoTest
         {
             return ghirN_matricola + " " + ghirN_nome;
         }
-        public  virtual bool Equals(GhirN_Candidato candi)
+        public  bool Equals(GhirN_Candidato candi)
         {
            if(candi == null)
                 return false;
